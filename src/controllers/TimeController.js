@@ -1,5 +1,5 @@
 const { json } = require('sequelize');
-const Time = require('../models/Time')
+const Time = require('../models/Time');
 
 module.exports = {
     async index(req, res) {
